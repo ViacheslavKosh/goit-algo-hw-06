@@ -72,8 +72,9 @@ class AddressBook(UserDict):
         del self[name]
 
 
+# Перевірка роботи
 if __name__ == '__main__':
-    # Створення нової адресної книги
+# Створення нової адресної книги
     book = AddressBook()
 
     # Створення запису для John
